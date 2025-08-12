@@ -8,9 +8,6 @@ This repository contains Arduino code for a variety of sensor modules used in th
 * [GPS & IMU Sensor Module](#gps--imu-sensor-module)
 * [Line Sensor Module](#line-sensor-module)
 * [Environment Sensor Module](#environment-sensor-module)
-* [Camera Module](#camera-module)
-* [Lidar Module](#lidar-module)
-* [License](#license)
 
 ---
 
@@ -23,7 +20,7 @@ This module demonstrates how to read distance data using various types of sensor
   Uses sound waves to measure the distance to an object.
 
 * **Infrared Sensor**
-  *Component:* [GP2Y0A41SK0F](https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a41sk_e.pdf)
+  *Component:* [GP2Y0A41SK0F](https://www.digikey.com/en/products/detail/sharp-socle-technology/GP2Y0A41SK0F/3884447)
   Short-range analog IR sensor ideal for precise detection of nearby objects.
 
 * **Micro LiDAR Module**
@@ -65,27 +62,10 @@ Used for line-following robots and navigation over predefined paths.
 Collects environmental data and detects physical interactions.
 
 * **Gas, Temperature, Humidity, Pressure Sensor**
-  *Component:* [Adafruit BME688]()
+  *Component:* [Adafruit BME688](https://www.adafruit.com/product/5046?srsltid=AfmBOopoG8VJ4rlCE5Oqaswy0aXFZLN8Znf9ts51DZJ3OFuwamDzMwBK)
   A powerful sensor for collecting air quality, gas levels, temperature, humidity, and pressure data.
 
 * **Collision Detection**
-  *Component:* [Roller Microswitch]()
+  *Component:* [Roller Microswitch](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/SS-5GL2/137204?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLljpCUYx8NhtcXeG3TsOafJ6L&gclid=Cj0KCQjwzOvEBhDVARIsADHfJJQzKiZk7wcT-JPvrtdA90gGAB58fDoLedWwTkMSZCfxjZU-tsx4X4EaAlkXEALw_wcB)
   Simple mechanical switch for detecting contact/collisions with objects.
-
----
-
-## Camera Module
-
-*Coming Soon*
-Includes Arduino-based interface for image or video capture. (Details and code will be added.)
-
----
-
-## Lidar Module
-
-*Coming Soon*
-Standalone Lidar module with real-time 2D/3D scanning support. (Details and code will be added.)
-
----
-
 
